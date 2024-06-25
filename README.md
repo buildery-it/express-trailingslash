@@ -1,5 +1,5 @@
 @entva/express-trailingslash
-========================
+============================
 
 ExpressJS middleware that redirects requests with trailing slashes to a clean one without it
 
