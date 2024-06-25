@@ -7,16 +7,13 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
     "declaration": true,
     "sourceMap": false,
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": false,
     "verbatimModuleSyntax": false,
-    "target": "ESNext",
     "outDir": "./dist"
   },
-  "include": ["**/*.ts", "**/*.js"],
+  "include": ["**/*.ts", "**/*.mjs"],
   "exclude": ["node_modules", "./dist", "./esm"]
 }

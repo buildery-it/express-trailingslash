@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
-import getMiddleware from '../esm/index.js';
+import getMiddleware from '../esm/index.mjs';
 
 const middleware = getMiddleware();
 
